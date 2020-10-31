@@ -4,6 +4,7 @@ const app = express();
 
 const PORT = 3000;
 const HOST = 'localhost';
+require('newrelic');
 
 app.use(express.static(__dirname));
 
